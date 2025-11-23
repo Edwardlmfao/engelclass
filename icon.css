@@ -1,0 +1,21 @@
+.icon {
+  position: fixed;
+  left: 50%;
+  bottom: 120px;
+  transform: translateX(-50%);
+  width: 350px;
+      user-select: none;    
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+
+.icon.jump {
+  animation: jump 0.4s ease-out;
+}
+
+@keyframes jump {
+  0%   { transform: translateX(-50%) translateY(0); }
+  50%  { transform: translateX(-50%) translateY(-20px); }
+  100% { transform: translateX(-50%) translateY(0); }
+}
