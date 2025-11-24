@@ -3,18 +3,18 @@ const messages = [
   "Kevy has a life that could be described as being 'on the edge.' His financial situation is 'stable' (in quotation marks), and he often spends his time working to help support his family.",
   "Kevy doesn’t like being disturbed, especially if it goes too far.",
   "Kevy is still a minor. 20> DNI.",
-  "Kevy likes playing games such as Forsaken, The Battle Bricks, Jujutsu Shenanigans, and he also enjoys playing mobile games like Clash Royale.",
+  "Kevy likes playing games such as Forsaken, The Battle Bricks, Jujutsu Shenanigans, Pressure, and he also enjoys playing mobile games like Clash Royale.",
   "Kevy doesn’t want any kind of relationship.",
   "Kevy likes the FPE fandom (not sexualized), Forsaken, and TBB (new to this fandom).",
   "Kevy was born on June 24, ####.",
   "Kevy’s main is TwoTime (current) and Elliot (past).",
   "Kevy’s favorite killer is Noli (current) and John Doe (past).",
   "Kevy loves getting praised for his actions.",
-  "Kevy likes Engel and Edward (FPE) and TwoTime (Forsaken)."
+  "Kevy likes Engel and Edward (FPE) and TwoTime (Forsaken) and Sebastian Solace (Pressure)."
 ];
 
 
-const finalMessage = "You have reached the end of Kevy fun facts!";
+const finalMessage = "You have reached the end of Kevy fun facts, check again later!";
 
 let availableMessages = [...messages];
 
