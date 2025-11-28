@@ -1,40 +1,43 @@
-html, body {
+body {
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: 100%;
-}
+  height: 100vh;
 
-body {
-  background-image: url("fpeclassroom.jpg");
+
+  background-image: url("fpeclassroom.jpg"); 
   background-size: cover;     
-  background-position: center bottom;
+  background-position: center; 
   background-repeat: no-repeat;
+  background-attachment: fixed; 
 
-  min-width: 1024px;
-  min-height: 576px;
-
-  overflow-x: auto;
-  overflow-y: hidden;
+  
+  display: flex;
+  justify-content: left;
 }
 
-
-.half-border-box {
-    width: 85%;
-    max-width: 1200px;
+.half-border-box  {
+    width: 90%;
+    max-width: 1400px;
 
     background-image: url("fpetextbox.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 
     position: fixed;
-    bottom: 15px;
+    bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 9999;
 
-    padding: 18px 40px;
-    height: 85px;
-
+    padding: 7px 25px;   
     box-sizing: border-box;
+    user-select: none;     
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.half-border-box * {
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
