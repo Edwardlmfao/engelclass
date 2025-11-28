@@ -6,16 +6,39 @@ html, body {
   overflow: hidden;
 }
 
-/* Kunci tampilan seperti PC */
 body {
   min-width: 1024px;
   min-height: 600px;
 
   background-image: url("fpeclassroom.jpg"); 
-  background-size: contain;   /* PENTING: jangan cover */
+  background-size: contain;   
   background-position: center bottom;
   background-repeat: no-repeat;
   background-color: black;
 
   display: block;
+}
+
+.half-border-box  {
+    width: 80%;
+    max-width: 1200px;
+
+    background-image: url("fpetextbox.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 90px;
+
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+
+    padding: 20px 40px;   
+    box-sizing: border-box;
+    user-select: none;     
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
