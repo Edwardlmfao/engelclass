@@ -19,26 +19,22 @@ body {
 }
 
 
-.half-border-box  {
-    width: 80%;
+.half-border-box {
+    width: 85%;
     max-width: 1200px;
 
     background-image: url("fpetextbox.png");
-    background-size: contain;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-position: center;
-
-    height: 90px;
 
     position: fixed;
-    bottom: 10px;
+    bottom: 15px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 9999;
 
-    padding: 20px 40px;   
+    padding: 18px 40px;
+    height: 85px;
+
     box-sizing: border-box;
-    user-select: none;     
-    -webkit-user-select: none;
-    -ms-user-select: none;
 }
