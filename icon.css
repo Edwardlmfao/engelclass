@@ -1,17 +1,16 @@
 .icon {
   position: fixed;
   left: 50%;
-  bottom: 100px;
+  bottom: 90px;
   transform: translateX(-50%);
   width: 320px;
   height: auto;
 
-  user-select: none;    
+  user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
-
-  image-rendering: auto;
 }
+
 
 .icon.jump {
   animation: jump 0.4s ease-out;
