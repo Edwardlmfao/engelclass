@@ -10,7 +10,8 @@ const messages = [
   "Kevy’s main is TwoTime (current) and Elliot (past).",
   "Kevy’s favorite killer is Noli (current) and John Doe (past).",
   "Kevy loves getting praised for his actions.",
-  "Kevy likes Engel and Edward (FPE) and TwoTime (Forsaken) and Sebastian Solace (Pressure)."
+  "Kevy likes Engel and Edward (FPE) and TwoTime (Forsaken) and Sebastian Solace (Pressure).",
+  "Also check my QWERTYDECODE if you're struggling!"
 ];
 
 
