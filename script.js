@@ -4,7 +4,6 @@ const messages = [
   "Kevy doesn’t like being disturbed, especially if it goes too far.",
   "Kevy is still a minor. 20> DNI.",
   "Kevy likes playing games such as Forsaken, The Battle Bricks, Jujutsu Shenanigans, Pressure, and he also enjoys playing mobile games like Clash Royale.",
-  "Kevy likely has feelings for one specific person.",
   "Kevy likes the FPE fandom, Forsaken, and TBB (new to this fandom).",
   "Kevy was born on June 24, ####.",
   "Kevy’s main is TwoTime (current) and Elliot (past).",
