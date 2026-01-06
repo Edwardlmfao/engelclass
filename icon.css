@@ -3,7 +3,8 @@
   left: 50%;
   bottom: 120px;
   transform: translateX(-50%);
-  width: 360px;
+  width: 320px;
+  height: auto;   
       user-select: none;    
     -webkit-user-select: none;
     -ms-user-select: none;
